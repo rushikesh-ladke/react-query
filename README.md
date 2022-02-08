@@ -1,68 +1,92 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div id="top"></div>
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/rushikesh-ladke/react-query">
+    <img src="https://blog.theodo.com/static/bb12ede8ede50acc8cdb447e7dc8bf6e/6fe88/rq-logo.png" alt="Logo" width="300" height="180">
+  </a>
 
-In the project directory, you can run:
+  <h3 align="center">React Query</h3>
 
-### `npm start`
+  <p align="center">
+  The Implementation of React Query 🌠 Performant and powerful data synchronization for React!
+    <br />
+    <a href="https://react-query.tanstack.com/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="react-query.netlify.app/">View Demo</a>
+  </p>
+</div>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `npm test`
+React Query is a library to Fetch, cache and update data in React and React Native applications all without touching any "global state". 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Implimented:
+* useQurey Hook
+* Caching and CacheTime
+* Stale Time
+* Mutation
 
-### `npm run build`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-### `npm run eject`
+* [React.js](https://reactjs.org/)
+* [React Query](https://react-query.tanstack.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<!-- GETTING STARTED -->
+## Getting Started
 
-## Learn More
+To get a local copy up and running follow these simple example steps.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-### Code Splitting
+### Installation
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+1. Clone the repo
+   ```sh
+   git clone https://github.com/rushikesh-ladke/react-query.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run the Project
+   ```sh
+   npm start
+   ```
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+<!-- USAGE EXAMPLES -->
+## Usage
 
-### Making a Progressive Web App
+React Query is useful library to cache the data and handle the data fetching and data mutating in a standardize way. 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+<!-- CONTACT -->
+## Contact
 
-### Deployment
+Your Name - [@linkedIn](https://www.linkedin.com/in/rushikesh-ladke/) - rsladke99@gmail.com
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Project Link: [https://github.com/your_username/repo_name](https://github.com/rushikesh-ladke/react-query.git)
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
