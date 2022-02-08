@@ -21,10 +21,14 @@ const App = () => {
         posts.length > 0 &&
         posts.map((post: any) => {
           const cachedPost = queryClient.getQueryData(['post', post.id]);
+          /**
+           * @AdditionalInfo cachedPost
+           * @objective to return true/false if the post is present is cache
+           */
           return (
             <div className='padding-class' key={post.id}>
               <div onClick={() => setPost(post.id)} className='pointer'>
-              {cachedPost ? <b>"Visited"</b> : null } {post.id} - {post.title}
+                {cachedPost ? <b>"Visited"</b> : null} {post.id} - {post.title}
               </div>
             </div>
           );
