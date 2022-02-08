@@ -11,7 +11,13 @@ interface Post {
 const Post = ({ id, goBack }: Post) => {
   const { isLoading, data: post } = useQuery(
     ['post', id],
-    () => fetcher(`https://jsonplaceholder.typicode.com/posts/${id}`)
+    () => fetcher(`https://jsonplaceholder.typicode.com/posts/${id}`), {
+      staleTime : Infinity
+      /**
+     * @AdditionalFeature staleTime
+     * @objective to increase or decrease staleTime
+     */
+    }
     /**
      * @AdditionalFeature cacheTime
      * @objective to increase or decrease cacheTime

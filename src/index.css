@@ -9,6 +9,11 @@
   color: red;
 }
 
-.padding-class{
+.blog-title{
   padding: 10px;
+  display: flex;
+}
+
+.blog-title button {
+  margin: 0px 10px;
 }
