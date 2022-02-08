@@ -17,9 +17,9 @@ const Post = ({ id, goBack }: Post) => {
 
   return (
     <div>
-      <a onClick={() => goBack()} href='#'>
+      <div onClick={() => goBack()} className='pointer'>
         Go Back
-      </a>
+      </div>
       <h1>{post.title}</h1>
       <p>{post.body}</p>
     </div>
