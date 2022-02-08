@@ -33,6 +33,9 @@ const App = () => {
 
   return (
     <div className='App'>
+      <div className='main-image'>
+      <img src='https://i.ytimg.com/vi/yq647-WW42s/maxresdefault.jpg' alt='img' height={200}/>
+      </div>
       {post === null ? (
         posts &&
         posts.length > 0 &&
