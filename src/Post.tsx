@@ -9,8 +9,17 @@ interface Post {
 }
 
 const Post = ({ id, goBack }: Post) => {
-  const { isLoading, data: post } = useQuery(['post', id], () =>
-    fetcher(`https://jsonplaceholder.typicode.com/posts/${id}`)
+  const { isLoading, data: post } = useQuery(
+    ['post', id],
+    () => fetcher(`https://jsonplaceholder.typicode.com/posts/${id}`)
+    /**
+     * @AdditionalFeature cacheTime
+     * @objective to increase or decrease cacheTime
+     * @default 5 mins
+     * @syntax  , {
+     *  cacheTime : 1000
+     *  }
+     */
   );
 
   if (isLoading) return <h1> Loading Post....</h1>;
