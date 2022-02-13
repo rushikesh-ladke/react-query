@@ -36,8 +36,6 @@ Implimented:
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [React.js](https://reactjs.org/)
 * [React Query](https://react-query.tanstack.com/)
 
@@ -86,7 +84,7 @@ React Query is useful library to cache the data and handle the data fetching and
 
 Your Name - [@linkedIn](https://www.linkedin.com/in/rushikesh-ladke/) - rsladke99@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/rushikesh-ladke/react-query.git)
+Project Link: [https://github.com/rushikesh-ladke/react-query.git](https://github.com/rushikesh-ladke/react-query.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
