@@ -19,7 +19,7 @@ const App = () => {
      */
   );
 
-  if (isLoading) return <h1>Loading...</h1>;
+  if (isLoading) return <h1>Loading page...</h1>;
 
   const mutateTitle = (id : any) => {
     queryClient.setQueryData(['post', id], (oldData : any) => {
